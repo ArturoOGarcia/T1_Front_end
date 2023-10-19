@@ -1,0 +1,40 @@
+.titulo {
+  display: inline-block;
+  border-bottom: 2px solid grey;
+  margin-bottom: 50px;
+  padding: 0 30px;
+}
+
+.nome {
+  font-weight: bold;
+  color: black;
+  padding-top: 15px;
+}
+
+.cargo {
+  padding: 10px;
+}
+
+.box-custom {
+  padding: 20px;
+  padding-top: 50px;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 50px;
+  min-height: 300px;
+  margin: 0 auto 20px auto;
+  max-height: 500px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-reduzida {
+  width: 80%;
+  height: auto;
+}
+
+body {
+  padding: 20px;
+}
