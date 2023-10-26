@@ -1,40 +1,40 @@
 .titulo {
-  display: inline-block;
-  border-bottom: 2px solid grey;
-  margin-bottom: 50px;
-  padding: 0 30px;
+  display: inline-block; /* Permite que outros elementos se alinhem */
+  border-bottom: 2px solid grey; /* Borda inferior */
+  margin-bottom: 50px; /* Margem inferior */
+  padding: 0 30px; /* Padding à esquerda e à direita */
 }
 
 .nome {
-  font-weight: bold;
-  color: black;
-  padding-top: 15px;
+  font-weight: bold; /* Negrito */
+  color: black; /* Texto preto */
+  padding-top: 15px; /* Padding no topo */
 }
 
 .cargo {
-  padding: 10px;
+  padding: 10px; /* Padding em todos os lados */
 }
 
 .box-custom {
-  padding: 20px;
-  padding-top: 50px;
-  width: 70%;
-  border: 1px solid black;
-  border-radius: 50px;
-  min-height: 300px;
-  margin: 0 auto 20px auto;
-  max-height: 500px;
+  padding: 20px; /* Padding em todos os lados */
+  padding-top: 50px; /* Padding no topo */
+  width: 70%; /* Largura em relação ao contêiner pai */
+  border: 1px solid black; /* Borda */
+  border-radius: 50px; /* Arredonda borda */
+  min-height: 300px; /* Altura mínima */
+  margin: 0 auto 20px auto; /* Elemento centralizado horizontalmente - margem inferior */
+  max-height: 500px; /* Altura máxima */
 }
 
 .text-center {
-  text-align: center;
+  text-align: center; /* Texto centralizado */
 }
 
 .img-reduzida {
-  width: 80%;
-  height: auto;
+  width: 80%; /* Largura da imagem em relação ao contêiner pai */
+  height: auto; /* Mantém a proporção da imagem ajustando a altura automaticamente */
 }
 
 body {
-  padding: 20px;
+  padding: 20px; /* Padding em todos os lados do body */
 }
